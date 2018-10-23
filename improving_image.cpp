@@ -18,7 +18,7 @@ int main( int argc, char** argv )
 
   int c;
 
-  // Load an image
+  /// Load an image - Select your own image here
   src = imread("face.jpg");
 
   if( !src.data )
@@ -42,8 +42,9 @@ int main( int argc, char** argv )
   //Adding original and Laplacian image
   addWeighted( abs_src_gray, 1, abs_dst, 1, 0.0, final);
 
-  /// Show what you got
+  ///save the image 
   imwrite("improved.jpg",final);
+  /// Show what you got
   imshow("improved_image", final);
 
   waitKey(0);
