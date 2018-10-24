@@ -5,3 +5,4 @@ This folder contain processed images of original images in original_images folde
 Now faces in these processed image can be recognised by Amazon face recognition.
 # improving_image
 After applying this filter on improved images you can see the improvment in percentage of confidence of prediction in Amazon face recognition.
+Note - Change in hyper-parameter may required
